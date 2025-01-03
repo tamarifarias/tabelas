@@ -1,0 +1,17 @@
+table, td, th {
+    border: 1px solid black;
+}
+
+.cabecalho {
+    background-color: steelblue;
+    color: #fff;
+}
+
+table tr:nth-child(2n + 2) {
+    background-color: #AAA;
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: separate;
+}
